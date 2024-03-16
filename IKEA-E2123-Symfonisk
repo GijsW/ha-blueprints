@@ -1,11 +1,11 @@
 # Blueprint metadata
 blueprint:
-  name: deCONZ - IKEA E2123 SYMFONISK Gen 2 Remote
+  name: ZHA - IKEA E2123 SYMFONISK Gen 2 Remote
   description: |
     # Controller - IKEA E2123 SYMFONISK Gen 2 Remote
 
     Controller automation for executing any kind of action triggered by the provided IKEA E2123 SYMFONISK Gen 2 Remote.
-    Supports deCONZ
+    Supports ZHA
 
     Based on the Awesome HA Blueprints
     ---> https://epmatt.github.io/awesome-ha-blueprints/
@@ -26,7 +26,7 @@ blueprint:
     #         - ZHA
     #         - Zigbee2MQTT
     controller_device:
-      name: (deCONZ) Controller Device
+      name: (ZHA) Controller Device
       description: The controller device to use for the automation.
       default: ""
       selector:
